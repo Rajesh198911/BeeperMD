@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="158893" started-at="2021-05-06T21:43:19 IST" finished-at="2021-05-06T21:45:58 IST">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="158893" started-at="2021-05-06T21:43:19 IST" finished-at="2021-05-06T21:45:58 IST">
+      <class name="com.beepermd.pages.BeeperMDAppointment3">
+        <test-method status="PASS" signature="CheckBrowsers(java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="CheckBrowsers" is-config="true" duration-ms="8058" started-at="2021-05-06T21:43:26 IST" finished-at="2021-05-06T21:43:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBrowsers -->
+        <test-method status="PASS" signature="scheduleYourTestNew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="scheduleYourTestNew" duration-ms="35159" started-at="2021-05-06T21:43:34 IST" data-provider="test" finished-at="2021-05-06T21:44:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04/30/2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8:20 AM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[demo add 4455]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Boca]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70112]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[sim]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[sall]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[06/12/1990]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[5551114449]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[jo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Rapid Antibody Test]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleYourTestNew -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="quit" is-config="true" duration-ms="5794" started-at="2021-05-06T21:44:09 IST" finished-at="2021-05-06T21:44:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="CheckBrowsers(java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="CheckBrowsers" is-config="true" duration-ms="6258" started-at="2021-05-06T21:44:15 IST" finished-at="2021-05-06T21:44:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBrowsers -->
+        <test-method status="PASS" signature="scheduleYourTestNew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="scheduleYourTestNew" duration-ms="31024" started-at="2021-05-06T21:44:21 IST" data-provider="test" finished-at="2021-05-06T21:44:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/21/2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8:20 AM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123 valley area]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Boca]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[160065]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[06/10/1990]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[6308844190]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[testnew1299@mailinator.com]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Covid-19 PCR Screening, Rapid Antigen Test, Rapid Antibody Test]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Patient Information 1, fname= jhony, lname= gill, gender= Male, dob= 01/10/1990, cellphone= 2221114589, email= jhonyex@gmail.com, Patient Information 2, fname= shila, lname= user, gender= Female, dob= 02/20/1988, cellphone= 9885551458, email= santt88@gmail.com, Patient Information 3, fname= mint, lname= gm, gender= Male, dob= 02/11/1987, cellphone= 9511114789, email= you55@gmail.com, Patient Information 4, fname= hill, lname= singh, gender= Male, dob= 05/08/1992, cellphone= 4545454555, email= sing4@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleYourTestNew -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="quit" is-config="true" duration-ms="5804" started-at="2021-05-06T21:44:52 IST" finished-at="2021-05-06T21:44:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="CheckBrowsers(java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="CheckBrowsers" is-config="true" duration-ms="6997" started-at="2021-05-06T21:44:58 IST" finished-at="2021-05-06T21:45:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBrowsers -->
+        <test-method status="PASS" signature="scheduleYourTestNew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="scheduleYourTestNew" duration-ms="19151" started-at="2021-05-06T21:45:05 IST" data-provider="test" finished-at="2021-05-06T21:45:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/28/2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8:20 AM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[demo add 4455]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Boca]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70112]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[sim]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[sall]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[06/12/1990]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[5551114449]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[jo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Rapid Antibody Test]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Patient Information 1, fname= kelly, lname= rt, gender= Male, dob= 01/11/1990, cellphone= 4421114589, email= rronyex@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleYourTestNew -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="quit" is-config="true" duration-ms="5791" started-at="2021-05-06T21:45:24 IST" finished-at="2021-05-06T21:45:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="CheckBrowsers(java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="CheckBrowsers" is-config="true" duration-ms="6121" started-at="2021-05-06T21:45:30 IST" finished-at="2021-05-06T21:45:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBrowsers -->
+        <test-method status="PASS" signature="scheduleYourTestNew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="scheduleYourTestNew" duration-ms="16641" started-at="2021-05-06T21:45:36 IST" data-provider="test" finished-at="2021-05-06T21:45:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[06/21/2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8:20 AM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[demo add 4455]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Boca]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70112]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[sim]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[sall]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[06/12/1990]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[5551114449]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[jo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Rapid Antibody Test]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleYourTestNew -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.beepermd.pages.BeeperMDAppointment3@4abdb505]" name="quit" is-config="true" duration-ms="5882" started-at="2021-05-06T21:45:52 IST" finished-at="2021-05-06T21:45:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.beepermd.pages.BeeperMDAppointment3 -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

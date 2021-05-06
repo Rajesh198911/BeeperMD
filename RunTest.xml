@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" data-provider-thread-count="1">
+
+	<listeners>
+		<listener class-name="com.beepermd.utilities.ExtentReporterNG" />
+	</listeners>
+
+	<test thread-count="5" name="Chrome">
+		<parameter name="Browsers" value="chrome" />
+		<parameter name="Headless" value="false" />
+
+		<classes>
+
+			<class name="com.beepermd.pages.BeeperMDAppointment3" />
+
+		</classes>
+	</test>
+	
+
+</suite> 
