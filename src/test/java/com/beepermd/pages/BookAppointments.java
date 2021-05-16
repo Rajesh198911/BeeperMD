@@ -2,7 +2,6 @@ package com.beepermd.pages;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -11,7 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.beepermd.base.Base;
-import com.beepermd.model.AppointmentModel;
 import com.beepermd.utilities.ExcelUtil;
 
 public class BookAppointments extends Base {
@@ -287,13 +285,6 @@ public class BookAppointments extends Base {
 			}
 		}
 
-		// Set payment amount
-		Thread.sleep(150);
-		String amount = VisibilityOfElementByXpath("//div[@id='paymentAmount']", 10).getText().replace("$", "")
-				.replace(".00", "");
-
-		AppointmentModel.setPayment_amount(Integer.parseInt(amount));
-		System.out.println("Customer needs to pay=" + " $" + Integer.parseInt(amount));
 
 		// NEXT
 		VisibilityOfElementByXpath(
@@ -343,8 +334,14 @@ public class BookAppointments extends Base {
 		// Submit appointment
 		VisibilityOfElementByXpath("//button[@id='submitButton']", 10).click();
 
+		Thread.sleep(500);
 		if (getDriver().findElements(By.xpath("//button[contains(text(),'Pay $')]")).size() > 0) {
+			System.out.println("Customer needs to "+VisibilityOfElementByXpath("//button[@id='submitButton']", 5).getText());
 			stripePayment();
+		}
+		
+		else {
+			System.out.println("Customer needs to Pay: $0");
 		}
 
 		// Validate success message
