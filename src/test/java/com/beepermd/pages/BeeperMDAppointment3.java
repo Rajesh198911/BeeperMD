@@ -14,7 +14,7 @@ import com.beepermd.utilities.ExcelUtil;
 
 public class BeeperMDAppointment3 extends Base {
 
-	static String excelPath = "Files\\data.xlsx";
+	static String excelPath = "C:\\Users\\rajes\\Desktop\\data.xlsx";
 	static String sheetName = "test";
 	int seconds = 80;
 	int rowCount;
@@ -49,9 +49,9 @@ public class BeeperMDAppointment3 extends Base {
 			String SelectRecurring, String RequestedTestingAddress, String City, String State, String ZipCode,
 			String Inbuilding, String FirstName, String LastName, String Gender, String DOB, String CellPhone,
 			String Email, String ReceiveNotificationsFromUs, String TypeOfCovidTest, String TotalAdditionalMembers,
-			String MembersInfo) {
+			String MembersInfo) throws Exception {
 
-		try {
+	
 
 			// Click on schedule your test button
 			VisibilityOfElementByXpath(
@@ -340,7 +340,7 @@ public class BeeperMDAppointment3 extends Base {
 
 			// Submit appointment
 			VisibilityOfElementByXpath("//button[@id='submitButton']", 10).click();
-
+			
 			if (AppointmentModel.getPayment_amount() > 0) {
 				stripePayment();
 			}
@@ -365,15 +365,7 @@ public class BeeperMDAppointment3 extends Base {
 			getDriver().navigate().to(url);
 
 			Thread.sleep(seconds);
-		}
-
-		catch (Exception e) {
-			e.printStackTrace();
-			// ExcelWriteColumnName(i, "AppointmentBooked", excel_file_path, "Failed to book
-			// appointment");
-			getDriver().navigate().to(url);
-			getDriver().navigate().refresh();
-		}
+		
 
 	}
 
